@@ -26,8 +26,24 @@ This is a Railway Management System designed to manage trains, bookings, and use
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
+   ```
+
+   #### The required dependencies are:
+
+   - **express**: A fast, unopinionated, minimalist web framework for Node.js
+   - **body-parser**: Middleware to parse incoming request bodies in a middleware before your handlers, available under the `req.body` property.
+   - **jsonwebtoken**: A library to issue JSON Web Tokens (JWT) for authentication.
+   - **mysql2**: MySQL client for Node.js to interact with the MySQL database.
+   - **bcrypt**: A library for hashing passwords securely.
+   - **dotenv**: A zero-dependency module to load environment variables from a `.env` file into `process.env`.
+
+   You can install these dependencies with the following command:
+
+   ```bash
+   npm install express body-parser jsonwebtoken mysql2 bcrypt dotenv
    ```
 
 ## Set up environment variables
