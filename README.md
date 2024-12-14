@@ -21,7 +21,7 @@ This is a Railway Management System designed to manage trains, bookings, and use
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/railway-management-system.git
+   git clone https://github.com/dhruv-g04/Railway-Management-System
    cd railway-management-system
    ```
 
@@ -75,11 +75,11 @@ The server will be running on [http://localhost:5000](http://localhost:5000).
 - `POST /api/auth/register`: Register a new user
 - `POST /api/auth/login`: Login an existing user to get a JWT token
 - `POST /api/bookings/book`: Book a seat on a train (requires authentication)
+- `GET /api/trains/seatAvailability`: Get seat availability between source and destination
 
 ### Admin Endpoints (requires API key)
 
 - `POST /api/trains/add`: Add a new train (requires admin authentication)
-- `GET /api/trains/seatAvailability`: Get seat availability between source and destination
 
 ## Database Schema
 
