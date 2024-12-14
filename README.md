@@ -66,7 +66,7 @@ Create a `railway_management` database and run the provided SQL scripts to creat
 npm start
 ```
 
-## The server will be running on [http://localhost:5000](http://localhost:5000).
+The server will be running on [http://localhost:5000](http://localhost:5000).
 
 ## API Endpoints
 
